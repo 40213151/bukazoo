@@ -1,0 +1,84 @@
+body {
+    background-color: #283746;
+}
+.col-xs-12{
+    /*background-color: #FF0585;*/
+    margin:2px;
+    margin-bottom: 10px;
+    border: 1px solid #FF0585;
+}
+
+.row{
+    margin:0;
+}
+
+.team-lists{
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 34px;
+    margin-bottom: 0;
+    letter-spacing: 1.2px;
+    text-shadow: 0 2px 5px #ccc;
+}
+
+.cards {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    margin-bottom: 20px;
+}
+.card-img {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 20px;
+}
+.card-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+}
+.card-text {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.card-link {
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding: 20px;
+    position: relative;
+}
+.card-link .go-to-detail {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px 0 5px;
+    background-color: #FF0585;
+    padding: 8px 20px;
+    border-radius: 7px;
+    width: 100px;
+
+}
+.card-link .go-to-detail:hover {
+    color: #0090aa;
+}
+
+.card-link .link-edit {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    background-color: #777;
+    padding: 8px 26px;
+    border-radius: 7px;
+    width: 100px;
+
+}
+.card-link .link-edit:hover {
+    color: #0090aa;
+}
