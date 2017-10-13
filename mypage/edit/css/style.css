@@ -1,0 +1,98 @@
+.mypage{
+    background-color: rgba(0,0,0,0.9);
+    color: #666; 
+}
+.upper-content{
+    margin: 20px 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.right-content{
+    width: 45%
+}
+
+.right-content input,
+.right-content textarea{
+    width: 100%;
+}
+
+.left-content{
+    width: 45%;
+    margin-top: 6px;
+}
+.bottom-content{
+    margin: 20px 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.trim-image-to-circle {
+    /*background-image: url("/mypage/img/938465.jpeg");  /* 表示する画像 */
+    background-size: cover;
+    width:  130px;       /* ※縦横を同値に */
+    height: 130px;       /* ※縦横を同値に */
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    background-position: center center;  /* 横長画像の左上を基準に表示 */
+    /*border: 9px solid #ff0085;*/
+ /*   position: absolute;
+    top: 90px;
+    left: 25px;
+    z-index: 1;*/
+    background-color:#fff;
+}
+.edit-image-label{
+    background-color: #ff0085;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 7px;
+}
+.edit-image{
+    color: #ffffff;
+}
+.edit-image:hover{
+    opacity: 0.8;
+}
+
+.mod-image{
+    border-style: none;
+    background-color: rgba(255,255,255,0.4);
+    color: #ffffff;
+}
+.mod-image:hover{
+    opacity: 0.8;
+}
+
+.username{
+    font-size: 25px;
+    margin: 0;
+}
+
+.introduction{
+    height: 200px;
+}
+
+.bottom-content button{
+    border: none;
+    background-color: #ff0085;
+    color: #ffffff;
+    padding: 5px;
+    width: 40%;
+    border-radius: 7px;
+}
+
+.cancel-button{
+
+}

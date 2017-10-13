@@ -1,0 +1,15 @@
+footer{
+	background-color:#294353;
+	height: 40px;
+	line-height: 40px;
+    border-top: 1px dashed #4A6472;
+}
+
+footer #footer-inner{
+	max-width: 980px;
+	margin: 0 auto;
+	text-align:center;
+	color: #fff;
+	height: 100%;
+	font-size: 10px;
+}

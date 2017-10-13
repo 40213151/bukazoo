@@ -1,0 +1,28 @@
+header{
+	background-color:#294353;
+	height: 49px;
+    border-bottom: 1px dashed #4A6472;
+}
+
+header > #header-inner{
+	max-width: 980px;
+	margin: 0 auto;
+	display : flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+#header-user-name{
+	padding-left: 35px;
+	color: #fff;
+}
+
+span.navbar-brand{
+	font-weight: bold;
+	color: #FF0085 !important;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: #fff;
+}

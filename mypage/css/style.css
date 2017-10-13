@@ -1,0 +1,174 @@
+.mypage{
+    /*background-color: rgba(0,0,0,0.9);*/
+    background:url("/mypage/img/aurora.jpg") center no-repeat; 
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    color: #666; 
+}
+/*.mypage:before{
+    content:'';
+    background: inherit;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+}*/
+.filter{
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.7);
+}
+.upper-content{
+    margin: 20px 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.right-content{
+    width: 45%;
+    color: #fff;
+    margin-top: 11px;
+}
+.left-content{
+    width: 45%;
+}
+
+.trim-image-to-circle {
+   /* background-image: url("/mypage/img/938465.jpeg");  /* 表示する画像 */
+   background-size: cover;
+    width:  130px;       /* ※縦横を同値に */
+    height: 130px;       /* ※縦横を同値に */
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    background-position: center center;  /* 横長画像の左上を基準に表示 */
+    /*border: 9px solid #ff0085;*/
+    background-color: #fff;
+}
+
+#edit-profile{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    /*opacity: 0.7;*/
+}
+.Doughnut-area {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    /*float: left; */
+    /*margin-right: 20px;*/
+}
+.Doughnut-area .percentage {
+    position: absolute;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+    height: 130px;
+    width: 130px;
+}
+
+.Doughnut-area em, 
+.Doughnut-area span {
+    font-family: Arial;
+    font-weight: 100;
+    width: 100%;
+    text-align: center;
+}
+.Doughnut-area em {
+    display: block;
+    font-size: 50px;
+    font-style: normal;
+    color: rgba(255,255,255,0.8);
+    line-height: 150px;
+}
+.Doughnut-area .caption {
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    color: #fff;
+}
+.username{
+    font-size: 25px;
+}
+.chart-area{
+    width: 100%;
+}
+
+.bukaz{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.team{
+    width: 31%;
+    height: 150px;
+    background-color: rgba(0,0,0,0.3);
+    margin:3px;
+    color: rgba(255,255,255,0.9);
+}
+.team:hover{
+    background-color: rgba(0,0,0,0.1);
+    color: rgba(255,255,255,1);
+}
+.team-name{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255,0,133,0.9);
+}
+
+.schedule{
+    position: relative;
+}
+
+.fc-four-rows .fc-row  {
+	height: 25%;
+}
+
+.fc-five-rows .fc-row  {
+	height: 20%;
+}
+
+.fc-six-rows .fc-row {
+	height: 16.66%;
+	height: -moz-calc(100%/6);
+	height: -webkit-calc(100%/6);
+	height: calc(100%/6);
+}
+
+.fc-calendar .fc-row > div,
+.fc-calendar .fc-head > div {
+	float: left;
+	height: 100%;
+	width:  14.28%; /* 100% / 7 */
+	width: -moz-calc(100%/7);
+	width: -webkit-calc(100%/7);
+	width: calc(100%/7);
+	position: relative;
+}
