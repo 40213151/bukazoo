@@ -1,0 +1,213 @@
+@charset "UTF-8"
+    
+main{
+    padding-right: 0;
+    padding-left: 0;
+}
+/*タイトル*/
+#title{
+    display: table;
+    background-size: cover;
+    margin-top: 0px;
+    height: 30rem;
+    background-image: url(../img/night.png);
+    background-size: cover;
+}
+
+
+.title-texts{
+    display: table-cell; /* IE8から使用可能 */
+ vertical-align: middle;
+    text-align: center;
+    
+}
+
+
+.tih1{
+    margin:0 auto;
+    font-size: 7rem;
+    padding-bottom: 10px;
+    
+}
+
+.title-texts p{
+    line-height: 18px;
+    font-size: 20px;
+     color: #FF7ABE;
+}
+
+
+/*前書き*/
+
+.what{
+    margin: 0 auto;
+    background-color:#fff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+#nani{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.0;
+    color: #262626;
+}
+
+.yase{
+    padding-top: 2rem;
+   font-size: 18px;
+    font-weight: 600;
+    color: #3B3B3B;
+}
+
+.yase{
+    margin: 0 auto;
+    font-size: 1.5rem;
+    line-height: 2.８rem;
+    font-weight: 600;
+    color: #4F4F4F;
+    width: 28rem;
+}
+
+
+/*主な機能*/
+#dekiru{
+    text-align: center;
+    background-color: #eee;
+    padding-bottom: 55px;
+}
+
+#can{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #262626;
+}
+
+#maru{
+    width:180px;
+    height:180px;
+    border-radius: 400px;
+    border:5px solid #FF87AB;
+    inset 0px 0px 10px rgba(0, 0, 0, 0.8);
+    background: url(../img/mokhyo.jpg) center center;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#conp{
+    font-size: 14px !important;
+    width: 300px;
+    margin: 0 auto;
+    line-height: 25px;
+    font-weight: 600;
+    color: #5E5E5E;
+}
+
+#h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3B3B3B;
+    padding-bottom: 10px;
+}
+
+
+/*利用者のこえ*/
+#koe{
+  background-color:#fff;
+    padding-bottom: 40px;
+}
+
+#cell{
+    padding-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #262626;
+}
+
+
+.sikaku1{
+    width:25rem;
+    height:22rem;
+    border:5px solid #5E76FF;
+    box-shadow:0px 0px 10px;
+    inset 0px 0px 10px rgba(0, 0, 0, 0.8);
+    background: url(../img/zou.jpg) center center;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+
+.sikaku2{
+    width:25rem;
+    height:22rem;
+    border:5px solid #5E76FF;
+    box-shadow:0px 0px 10px;
+    inset 0px 0px 10px rgba(0, 0, 0, 0.8);
+    background: url(../img/gori.jpg) center center;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+
+#h33{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #3B3B3B;
+    border-bottom: 1px solid #000000;
+    width: 25rem;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    line-height: 2rem;
+}
+
+#say{
+    font-size: 16px !important;
+    margin: 0 auto;
+    line-height: 25px;
+    font-weight: 600;
+    color: #454545;
+    width: 28rem;
+}
+
+
+#junp-button{
+     border-radius: 13px;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+    background: #ff0585;
+    width: 30rem;
+    height: 60px;
+    padding-bottom: 0px;
+    display: table;
+}
+
+.jumbotron{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#junp-button:hover{
+    background-color:#FF339D;
+}
+
+#aaa{
+    display: table-cell; /* IE8から使用可能 */
+ vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+}
+
+#aaa p
+{
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    margin: 0 auto;
+}
